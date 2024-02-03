@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="min-h-screen bg-cream flex items-center justify-center">
+  <!-- Card -->
+  <div class="p-2 max-w-[350px] sm:max-w-[675px] sm:flex">
+    <!-- Card Image -->
+    <div>
+      <img class="rounded-t-xl sm:hidden" src="../images/image-product-mobile.jpg" alt="product image">
+      <img class="w-full h-full object-cover rounded-l-xl hidden sm:block" src="../images/image-product-desktop.jpg" alt="product image">
+    </div>
+    <!-- Card Info -->
+    <div class="bg-pure-white p-5 sm:p-10 space-y-3 sm:space-y-5 rounded-b-xl sm:rounded-none sm:rounded-r-xl sm:flex sm:flex-col sm:justify-center">
+      <!-- Card Text -->
+      <p class="font-body text-aurometal-saurus text-sm font-medium tracking-widest-2">PERFUME</p>
+      <p class="font-display font-bold text-gunmetal text-3xl sm:mr-16">Gabrielle Essense Eau De Parfum</p>
+      <p class="font-display font-medium text-aurometal-saurus text-sm sm:mr-12">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <!-- Card Price -->
+      <div class="flex items-center justify-start gap-3">
+        <p class="font-display text-deep-aquamarine font-bold text-3xl">$149.99</p>
+        <p class="font-body text-xs line-through">$169.99</p>
+      </div>
+      <!-- Card Button -->
+      <div class="w-full p-3 flex items-center justify-center">
+        <button class="w-full p-2 bg-deep-aquamarine flex items-center justify-center gap-2 rounded-lg hover:bg-deep-aquamarine-hover">
+          <img src="../images/icon-cart.svg" alt="cart icon">
+          <p class="font-body text-sm text-pure-white font-bold">Add to Cart</p>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
