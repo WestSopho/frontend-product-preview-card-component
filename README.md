@@ -35,7 +35,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Link](https://github.com/WestSopho/frontend-product-preview-card-component)
-- Live Site URL: [Link](https://github.com/WestSopho/frontend-product-preview-card-component)
+- Live Site URL: [Link](https://github.com/WestSopho/frontend-product-preview-card-component/src)
 
 ## My process
 
